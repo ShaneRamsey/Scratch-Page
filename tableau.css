@@ -1,0 +1,80 @@
+body {
+    background-color: rgba(227, 187, 247, 0.813);
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+.common{
+    position:relative;
+}
+.header{
+    justify-items: center;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 100%;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    border: 2px solid white;
+}
+.pagetitle{
+    grid-template-columns: 90% 10%;
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgb(93, 92, 92);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.subtitle{
+    color: rgb(93, 92, 92);
+    font-style: italic;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-size: 23px;
+}
+.listtitle{
+    font-weight: bold;
+    color: rgb(93, 92, 92);
+    border: solid 2px white;
+}
+.mainbody{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 8px;
+    margin: 8px;
+    justify-content: center;
+    grid-template-rows: 100%;
+}
+.rightmenu{
+    display: grid;
+    grid-template-rows: min-content
+    
+}
+.touristlist{
+    text-decoration: none;
+    font-size: 22px;
+}
+.footer{
+    border: 2px solid white;
+    position:relative;
+    text-align: center;
+    color: rgb(93, 92, 92);
+}
+video{
+    width: 100%;  
+}
+h2{
+    text-align: center;
+    font-size: 26px;
+}
+li{
+    font-weight: normal;
+}
+a:hover{
+    font-size: larger;
+    color: gold;
+    
+}
+a:visited{
+    color: rgb(155, 248, 15);
+}
